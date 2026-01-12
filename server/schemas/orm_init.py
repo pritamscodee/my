@@ -13,5 +13,3 @@ Base=DeclarativeBase()
 
 SessionLocal=sessionmaker(bind=engine)
 session=SessionLocal()
-
-
