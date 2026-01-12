@@ -1,0 +1,28 @@
+re.match()	Match pattern at start of string
+re.search()	Search pattern anywhere in string  ##regex
+re.findall()	Return all matches as list
+re.finditer()	Return matches as iterator
+re.sub()	Replace matches
+re.split()	Split string by pattern
+
+
+Symbol	Meaning	Example
+\d	number	0–9
+\w	word	a-z A-Z 0-9 _
+\s	space	space, tab
++	one or more	\d+
+*	zero or more	a*
+?	zero or one	a?
+
+
+
+| Mode   | Meaning                                        |
+| ------ | ---------------------------------------------- |
+| `"r"`  | Read (default) – error if file doesn’t exist   |  ##file handling 
+| `"w"`  | Write – creates file, **overwrites** if exists |
+| `"a"`  | Append – adds data at end                      |
+| `"x"`  | Create – error if file exists                  |
+| `"rb"` | Read binary                                    |
+| `"wb"` | Write binary                                   |
+| `"r+"` | Read + Write                                   |
+
